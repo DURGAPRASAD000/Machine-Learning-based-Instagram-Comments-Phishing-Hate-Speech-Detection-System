@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><project name=" Machine Learning-based Instagram Comments Phishing &amp; Hate Speech Detection System " company="Saint peters university" webLink="" view-date="2024-04-05" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3307" locale="en_US">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ff0000 #00cc00 #ffcc00 #ff6666]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="3a5ca342dcf74affb47ae1aa995c3f09" name="PROBLEM STATEMENT" meeting="false" start="2024-03-29" duration="3" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="5fd1aaf9bc9b4b3c8fe3171945af9188" name="LITERATURE REVIEW" meeting="false" start="2024-04-03" duration="3" complete="0" thirdDate="2024-03-15" thirdDate-constraint="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="8fa929ec7b444db4b999dbd3edaecdc5" name="DATA COLLECTION" meeting="false" start="2024-04-08" duration="4" complete="0" thirdDate="2024-03-20" thirdDate-constraint="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="fc740a35125c4c3abc3f13e69f3b1846" name="DATA PREPROCESSING" color="#8cb6ce" meeting="false" start="2024-04-12" duration="4" complete="1" thirdDate="2024-03-20" thirdDate-constraint="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="5a60bf9e7ebc41ea8afb2f3d036d9ef6" name="FEATURE EXTRACTION AND MODEL SELECTION" meeting="false" start="2024-04-18" duration="4" complete="0" thirdDate="2024-03-20" thirdDate-constraint="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="1ccaa3e156b34ca1b72c8e55ae45e68a" name="MODEL TRAINING AND EVALUATION" meeting="false" start="2024-04-24" duration="5" complete="0" thirdDate="2024-03-20" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="2159a4ee86d44006979ea345b16c466c" name="TESTING" color="#8cb6ce" meeting="false" start="2024-05-01" duration="5" complete="0" thirdDate="2024-03-20" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="a352fb03457d4643933a1f67da3f2fcf" name="DOCUMENTING THE RESULTS" color="#8cb6ce" meeting="false" start="2024-05-08" duration="5" complete="0" thirdDate="2024-03-20" thirdDate-constraint="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="00b284b0890e474990efc18dfa99552c" name="PROJECT FINAL DOC PREPARATION" color="#8cb6ce" meeting="false" start="2024-05-15" duration="3" complete="0" thirdDate="2024-03-20" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="DURGA PRASAD THOTA" function="1" contacts="dthota@saintpeters.edu" phone="2014486265"/>
+        <resource id="1" name="NAGARAGERI SAICHITRA" function="1" contacts="snagarageri@saintpeters.edu" phone=""/>
+        <resource id="2" name="VARUN KUMAR POLISETTY" function="1" contacts="vpolisetty@saintpeters.edu" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="TEAM MEMBER"/>
+    </roles>
+</project>
